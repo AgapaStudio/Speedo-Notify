@@ -1,0 +1,40 @@
+.speedo-theme-metro.speedo-notify-container
+{
+	background: #F1F1F1 none repeat-x scroll 0 0;
+	background-clip: padding-box;
+	border: 1px solid #E5E5E5;
+	outline: 0;
+	position: fixed;
+	padding: 0 24px;
+	z-index: 100004;
+	color: #333;
+}
+
+.speedo-theme-metro .speedo-notify-close
+{
+	position: absolute;
+	background: #E54040 url('images/close-btn.png') no-repeat center center;
+	right: 0px;
+	top: 0px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	z-index: 1000;
+	
+	transition: background-color 1s;
+	-moz-transition: background-color 1s;
+	-webkit-transition: background-color 1s;
+}
+
+.speedo-theme-metro .speedo-notify-close:hover
+{
+	background-color: #D83C3C;
+}
+
+.speedo-theme-metro .speedo-notify-content
+{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}

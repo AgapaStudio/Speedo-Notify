@@ -1,0 +1,38 @@
+.speedo-theme-ignito.speedo-notify-container
+{
+	-webkit-box-shadow: 0 4px 16px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 4px 16px rgba(0,0,0,.2);
+	box-shadow: 0 4px 16px rgba(0,0,0,.2);
+	background: rgba(240, 47, 94, 0.5);
+	background-clip: padding-box;
+	border: 1px solid rgba(0, 0, 0, .333);
+	outline: 0;
+	position: fixed;
+	padding: 0 24px;
+	z-index: 100004;
+}
+
+.speedo-theme-ignito .speedo-notify-close
+{
+	position: absolute;
+	background: transparent url('images/close-btn.png') no-repeat center center;
+	right: 0px;
+	top: 0px;
+	width: 30px;
+	height: 100%;
+	cursor: pointer;
+	z-index: 1000;
+}
+
+.speedo-theme-ignito .speedo-notify-content
+{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+.speedo-theme-ignito .speedo-notify-content iframe
+{
+	border: none;
+}

@@ -1,0 +1,44 @@
+.speedo-theme-notify.speedo-notify-container
+{
+	background-clip: padding-box;
+	border: 1px solid #94687f;
+	outline: 0;
+	position: fixed;
+	padding: 0 24px;
+	z-index: 100004;
+	color: #eee;
+	background: rgb(184,137,162);
+	background: -moz-linear-gradient(top,  rgba(184,137,162,1) 0%, rgba(149,105,129,1) 49%, rgba(130,79,106,1) 50%, rgba(140,85,115,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(184,137,162,1)), color-stop(49%,rgba(149,105,129,1)), color-stop(50%,rgba(130,79,106,1)), color-stop(100%,rgba(140,85,115,1)));
+	background: -webkit-linear-gradient(top,  rgba(184,137,162,1) 0%,rgba(149,105,129,1) 49%,rgba(130,79,106,1) 50%,rgba(140,85,115,1) 100%);
+	background: -o-linear-gradient(top,  rgba(184,137,162,1) 0%,rgba(149,105,129,1) 49%,rgba(130,79,106,1) 50%,rgba(140,85,115,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(184,137,162,1) 0%,rgba(149,105,129,1) 49%,rgba(130,79,106,1) 50%,rgba(140,85,115,1) 100%);
+	background: linear-gradient(to bottom,  rgba(184,137,162,1) 0%,rgba(149,105,129,1) 49%,rgba(130,79,106,1) 50%,rgba(140,85,115,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b889a2', endColorstr='#8c5573',GradientType=0 );
+}
+
+.speedo-theme-notify .speedo-notify-close
+{
+	position: absolute;
+	background: transparent url('images/close-btn.png') no-repeat center center;
+	right: 0px;
+	top: 0px;
+	width: 30px;
+	height: 100%;
+	cursor: pointer;
+	z-index: 1000;
+}
+
+.speedo-theme-notify .speedo-notify-close:hover
+{
+	background-color: rgba(184,137,162,1);
+}
+
+.speedo-theme-notify .speedo-notify-content
+{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+}

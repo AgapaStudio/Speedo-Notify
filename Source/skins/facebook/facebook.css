@@ -1,0 +1,39 @@
+.speedo-theme-facebook.speedo-notify-container
+{
+	-webkit-box-shadow: 0 4px 16px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 4px 16px rgba(0,0,0,.2);
+	box-shadow: 0 4px 16px rgba(0,0,0,.2);
+	background:#6D84B4 none repeat scroll 0 0;
+	background-clip: padding-box;
+	border: 5px solid #6F6F6F;
+	outline: 0;
+	position: fixed;
+	padding: 0 8px;
+	z-index: 100004;
+	color: #fff;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif !important;
+	font-size:14px;
+	font-weight:normal;
+}
+
+.speedo-theme-facebook .speedo-notify-close
+{
+	position: absolute;
+	background: transparent url('images/close-btn.png') no-repeat center center;
+	right: 0px;
+	top: 0px;
+	width: 30px;
+	height: 100%;
+	cursor: pointer;
+	color: #fff;
+	text-decoration: none;
+}
+
+.speedo-theme-facebook .speedo-notify-content
+{
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+}

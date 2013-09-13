@@ -1,0 +1,18 @@
+﻿.speedo-notify-social
+{
+	float: left;
+	display: inline-block;
+	position: relative;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	overflow: hidden;
+	/*background: #F2F2F2;*/
+	padding: 10px;
+	min-height: 25px;
+}
+
+.speedo-notify-social iframe
+{
+	margin: 0 5px;
+}
